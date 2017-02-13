@@ -6,7 +6,7 @@ implement with custom **PageAdapter**
 
 
 First , create your custom <code>PagerAdapter</code> extends <code>FragmentStatePagerAdapter</code> and override some method.
-and on MainActivity you can use with method <code>addOnPageChangeListener()</code> after instance to change layout when swipe. Configure layout tab fragment in class <code>Pager</code>, for example :
+and in MainActivity you can use with method <code>addOnPageChangeListener()</code> after instance to change layout when swipe. Configure layout tab fragment in class <code>Pager</code>, for override method example :
 
 ``` java
     @Override
